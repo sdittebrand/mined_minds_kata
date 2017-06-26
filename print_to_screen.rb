@@ -1,11 +1,12 @@
-number = 1
-100.times do
-    if (number % 2 == 0)
-        puts "even"
-    elsif 
-        (number % 2 == 1)
-        puts "odd"
-        
-    end
-    number = number + 1
-end
+ number = 1
+ 100.times do
+ 	
+ 	if number % 3 == 0
+ 		puts "Mined"
+ 	elsif number % 5 == 0
+ 	    puts "Minds"
+ 	else
+ 		puts number
+ 	end
+ 	number = number + 1 	
+ end
