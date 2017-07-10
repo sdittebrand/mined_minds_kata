@@ -5,6 +5,12 @@ def mm_array()
     while num <= 100
         if num % 3 == 0 && num % 5 == 0
             array << "mined minds"
+        elsif 
+            num % 3 == 0 
+            array << "mined"
+        elsif 
+            num % 5 == 0 
+            array << "minds"
         else
             array.push(num) 
         end
@@ -12,4 +18,5 @@ def mm_array()
     end
 array
 end
+
 
