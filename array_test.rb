@@ -11,5 +11,13 @@ class TestArrayFunction < Minitest::Test
         assert_equal(100,results.length)
 
     end
+
+    def test_15_returns_mined_minds
+
+        results = mm_array
+
+        assert_equal("mined minds",results[14])
+
+    end
 end
 
