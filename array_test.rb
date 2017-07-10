@@ -36,6 +36,14 @@ class TestArrayFunction < Minitest::Test
 
     end
 
+    def test_37_returns_37
+
+        results = mm_array
+
+        assert_equal(37,results[36])
+
+    end
+    
     def test_6_returns_mined
 
         results = mm_array
@@ -52,6 +60,38 @@ class TestArrayFunction < Minitest::Test
 
     end
 
+        def test_20_returns_minds
+
+        results = mm_array
+
+        assert_equal("minds",results[19])
+
+    end
+
+
+    def test_60_returns_mined_minds
+
+        results = mm_array
+
+        assert_equal("mined minds",results[-41])
+
+    end
+
+    def test_93_returns_minds
+
+        results = mm_array
+
+        assert_equal("minds",results[-6])
+
+    end
+
+    def test_100_returns_minds
+
+        results = mm_array
+
+        assert_equal("minds",results[-1])
+
+    end
 
 end
 
